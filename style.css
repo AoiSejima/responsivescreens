@@ -51,7 +51,7 @@ img {
     min-width: 20rem;
     display: flex;
     align-items: left;
-    margin: 0 auto;
+    margin: 0;
 }
 
 li {
@@ -60,11 +60,18 @@ li {
     align-items: left;
     justify-content: left;
     line-height: 2rem;
+    margin-left: 2rem;
 }
 
 h2 {
     font-size: 3rem;
     margin: 0 auto 1rem;
+    line-height: 3.5rem;
+}
+
+.third h2 {
+    font-size: 3rem;
+    margin: 0;
 }
 
 h3 {
@@ -89,21 +96,23 @@ p {
 
     .first {
         flex-direction: column;
-        margin-bottom: auto 2rem;
+        margin-bottom: 2rem;
     }
     
     .second {
         flex-direction: column;
-        margin-bottom: auto 2rem;
+        margin-bottom: 2rem;
     }
     
     .third {
         flex-direction: column;
-        margin-bottom: auto 2rem;
+        margin-bottom: 2rem;
     }
 
     img {
         width: 20rem;
+        align-items: center;
+        margin: auto;
     }
 
     li {
@@ -112,11 +121,17 @@ p {
         justify-content: left;
         max-width: 19rem;
         line-height: 1rem;
+        margin: 0;
     }
     
     h2 {
         font-size: 1.5rem;
         line-height: 2rem;
+    }
+
+    .third h2 {
+        font-size: 1.5rem;
+        margin: 0;
     }
     
     h3 {
